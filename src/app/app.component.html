@@ -1,0 +1,9 @@
+<div>
+  
+  <input [(ngModel)] = "userObject.name">
+  <input [(ngModel)] = "userObject.age">
+  <input [(ngModel)] = "userObject.id">
+  <app-user [user] = "userObject" (userEvent)="handleEvent($event)" ></app-user>
+
+
+</div>
